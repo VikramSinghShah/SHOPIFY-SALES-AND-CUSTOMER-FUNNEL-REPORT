@@ -10,13 +10,13 @@ This project demonstrates the complete data analysis process using Power BI only
 
 To build an interactive Power BI dashboard that helps stakeholders:
 
-Monitor sales performance and revenue trends
+Monitor Transaction performance, Customer Purchase Behavoiur and Repeated and Single order Customers.
 
-Identify top-performing products and underperforming categories
+Identify Repeat Customer and Net Sales and Life time value of A customer.
 
 Analyze customer segmentation and purchasing behavior
 
-Track geographic sales to identify expansion opportunities
+Track geographic Net Sales, Total Quantity, Total Customers and Repeat Customers  to identify expansion opportunities.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,36 +77,22 @@ Region
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **📈 Dashboard Features:**
 
-Line charts: Net Sales, Total Quantity, Total Customers and Repeat Customers Trend Over Time.
+**Line charts:** Net Sales, Total Quantity, Total Customers and Repeat Customers Trend Over Time.
 
-Bar charts: City, Product type and Hours Overview by Net Sales, Total Quantity, Total Customers and Repeat Customers.
+**Bar charts:** City, Product type and Hours Overview by Net Sales, Total Quantity, Total Customers and Repeat Customers.
 
-Map visualization: Regional overview by Address and Location breakdown by Net Sales, Total Quantity, Total Customers and Repeat Customers
+**Map visualization:** Regional overview by Address and Location breakdown by Net Sales, Total Quantity, Total Customers and Repeat Customers
 
-Donut/pie charts: Net Sales, Total Quantity, Total Customers and Repeat Customers by Gateway Payment Method
+**Donut/pie charts:** Net Sales, Total Quantity, Total Customers and Repeat Customers by Gateway Payment Method
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**🔍 Key Insights:**
-
-📊 Revenue grew steadily year-over-year, with a notable spike during Q4 promotions.
-
-🏆 Technology and Electronics categories generated the most revenue and profit.
-
-📉 Office Supplies underperformed consistently and had the lowest margin.
-
-🌍 The West and South regions showed the fastest growth, ideal for expansion.
-
-🧑‍💼 Corporate clients made fewer purchases but had a significantly higher average order value than retail customers.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **✅ Outcome:**
 
 This dashboard enables stakeholders to:
 
-Identify top and bottom-performing products
+Identify Net sales ,Total Quantity, and Net Average Order Value and getting the Repeated Customer.
 
-Allocate inventory and marketing budgets efficiently
+Monitor business health and  customer Purchase Behavour via dynamic KPIs
 
-Monitor business health via dynamic KPIs
-
-Make informed decisions based on visual data stories
+Make informed decisions based on visual data stories.
