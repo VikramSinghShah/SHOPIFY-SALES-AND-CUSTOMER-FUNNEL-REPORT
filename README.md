@@ -7,7 +7,7 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 **1. Objective:**  
-To demonstrate the end-to-end process of a data analytics project, from data extraction using SQL to visualization with Power BI, suitable for inclusion in a data analyst.
+To demonstrate the end-to-end process of a data analytics project, data visualization with Power BI, suitable for inclusion in a data analyst.
 
 
 
@@ -15,11 +15,9 @@ To demonstrate the end-to-end process of a data analytics project, from data ext
 -----------------------------------------------------------------------------------------------------------------------------
 **2. Tools and Technologies:**
 
-**SQL:** Utilized for data extraction, transformation, and loading (ETL) processes.
-
 **Power BI:** Employed for data visualization and dashboard creation.
 
-**Data Sources:** Sample datasets relevant to business scenarios.
+**Data Sources:** Real time data from online sources.
 
 
 
