@@ -1,5 +1,6 @@
 **📊 Project Title:**
-**End-to-End Sales Analytics Dashboard Using Power BI.**
+
+**SHOPIFY | SALES AND CUSTOMER FUNNEL REPORT**
 
 An end-to-end Power BI project analyzing company sales, customer, and product data from 2023 to 2025. The goal of this project was to uncover trends in revenue, product performance, customer behavior, and geographic sales—providing data-driven insights for business decision-making and strategic planning.
 
