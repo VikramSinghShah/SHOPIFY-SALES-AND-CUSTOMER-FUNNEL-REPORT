@@ -24,9 +24,13 @@ Track geographic Net Sales, Total Quantity, Total Customers and Repeat Customers
 **🧰 Tools Used:**
 
 **Power BI:**	Data transformation, modeling, visualization
+
 **Power Query:**	Cleaning and transforming raw datasets
+
 **DAX:**	Creating custom KPIs and measures
+
 **Excel/CSV:**	Raw data files used for import
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **📋 Key Performance Indicators (KPIs)**
@@ -52,19 +56,32 @@ Created calculated columns (e.g., Total Quantity, Net Sales)
 **🧠 DAX Measures:**
 
 **For Transaction Performance:**
-Net Sales = SUM(Subtotal Price)
-Total Quantity = SUM(Quantity)
-Net Avg Order Value = AVERAGE(Subtotal Price)
+
+1. Net Sales = SUM(Subtotal Price)
+
+2. Total Quantity = SUM(Quantity)
+
+3. Net Avg Order Value = AVERAGE(Subtotal Price)
+
 
 **For Customer Purchase Behavour:**
-Total Customers = DISTINCTCOUNT(Customer Id)
-Single Order Customers = CALCULATE(COUNTROWS(VALUES(Customer Id)), FILTER(VALUES(Customer I), CALCULATE(DISTINCTCOUNT(Order Number)) = 1 ))
-Repeat Customers = CALCULATE(COUNTROWS(VALUES(Customer Id)), FILTER(VALUES(Customer Id), CALCULATE(DISTINCTCOUNT(Order Number)) > 1 ))
+
+1. Total Customers = DISTINCTCOUNT(Customer Id)
+
+2. Single Order Customers = CALCULATE(COUNTROWS(VALUES(Customer Id)), FILTER(VALUES(Customer I), CALCULATE(DISTINCTCOUNT(Order Number)) = 1 ))
+
+3. Repeat Customers = CALCULATE(COUNTROWS(VALUES(Customer Id)), FILTER(VALUES(Customer Id), CALCULATE(DISTINCTCOUNT(Order Number)) > 1 ))
+
+
 
 **For Retension & Value KPI's:**
-Lifetime Value = [Net Sales] / [Total Customers]
-Repeate Rate = [Repeat Customers] / [Total Customers]
-Purchase Frequency = DISTINCTCOUNT(Order Number) / [Total Customers]
+
+1. Lifetime Value = [Net Sales] / [Total Customers]
+
+2. Repeate Rate = [Repeat Customers] / [Total Customers]
+
+3. Purchase Frequency = DISTINCTCOUNT(Order Number) / [Total Customers]
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🎛️ Filters and Slicers in the Dashboard:**
