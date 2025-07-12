@@ -7,6 +7,13 @@ An end-to-end Power BI project analyzing company sales, customer, and product da
 This project demonstrates the complete data analysis process using Power BI only, from importing raw Excel/CSV files, transforming and modeling data using Power Query, and creating insightful visualizations using DAX and interactive dashboard features.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📊 Dashboard Snapshot:
+<p align="center">
+  <img src="./Dashboard SS/Shopify Sales Dashboard.png" width="700" alt="Summary Dashboard">
+  <br><i> Shopify Sales Dashboard </i>
+</p>
+
+----------------------------------------------
 **🎯 Objective:**
 
 To build an interactive Power BI dashboard that helps stakeholders:
